@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  background-image: url("bg.jpg");
+  object-fit: cover;
+
+
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.quotes {
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: black;
+  background-image: url("quotebg.jpg");
+  object-fit: cover;
+  border: 5px solid rgb(0, 0, 0);
+
+
+}
+
+.quotes p {
+  font-size: 1.5rem;
+}
+
+.quotes h3 {
+  color: #000000;
+  margin: 2rem 0 3rem 0;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.btn {
+  background-color: rgb(227, 131, 232);
+  font-weight: 600;
+  color: #000000;
+  border: 2px solid black;
+}
+
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+
+footer span a {
+  color: rgb(120, 200, 241);
+  text-decoration: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-wrap: wrap;
+  }
+
+  footer div {
+    width: 100%;
+  }
+}
